@@ -16,13 +16,16 @@ a {
     right: 2%;
 }
 
+body {
+    text-align: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #start {
     margin-top: 10%;
 
-}
-
-.text-center {
-    text-align: center;
 }
 
 p {
@@ -38,15 +41,24 @@ a:hover {
     color: blue;
 }
 
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#play-again {
+    position: fixed;
+    left: 48.65%
 }
 
-.text-center{
-    text-align: center;
+#high-scores-button {
+    position: fixed;
+    left: 48.5%;
+}
+
+ol {
+
+    list-style-position: inside;
+    margin-left: -2%;
+}
+
+#score-button {
+    
 }
 
 .hide {
