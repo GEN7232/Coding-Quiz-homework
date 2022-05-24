@@ -87,18 +87,15 @@ function isCorrect () {
 }
 
 function isWrong () {
-    // var timeLeft -= 10;
   console.log("Incorrect");
   answer.textContent = "Incorrect - 10 seconds";
   timeLeft -= 10;
-  // console.log(timeLeft);
 }
 
 function endGame () {
     quizScreen.classList.add("hide");
     var timeScore = timeLeft;
     clearInterval(timeInterval);
-    // console.log(timeLeft);
     finalScore.textContent = "Game Over! Final score = " + timeScore;
     finalScore.classList.remove("hide");
     nameInput.classList.remove("hide");
@@ -111,7 +108,6 @@ var scoreArray = JSON.parse(localStorage.getItem("High Scores")) || []
 submitButton.addEventListener("click", function(event) {
   event.preventDefault();
   
-// console.log(initials.value);
   var nameScore = {
     initials: initials.value,
     score: timeLeft,
