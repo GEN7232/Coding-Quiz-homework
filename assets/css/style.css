@@ -1,0 +1,55 @@
+header {
+    display: inline;
+}
+
+a {
+    float: left;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+#timer {
+    float: right;
+    position: fixed;
+    top: 2%;
+    right: 2%;
+}
+
+#start {
+    margin-top: 10%;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+p {
+    font-size: 120%;
+}
+
+#start-button {
+    background-color: blueviolet;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+

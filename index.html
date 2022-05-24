@@ -5,19 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz Challenge</title>
-    <link src="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-<header>
-    <a href="high-scores.html">View High Scores</a>
-</header>
+    <header>
+        <a id="high-scores-link" href="high-scores.html">View High Scores</a>
+        <div id="timer">
+
+        </div>
+    </header>
+    <div id="start" class="text-center">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code-related questions within the time limit. 
+        <br>
+        Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+        <button id="start-button">Start Quiz</button>
+
+    </div>
+    <div id="quiz" class="text-center hide">
+        <h2 id="quiz-text">Question 1</h2>
+        <div class="button-box">
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="answer text-center">
+
+    </div>
+    <br>
+    <br>
+    <div id="final-score" class="text-center hide">
+    </div>
+    <br>
+    <div class="box">
+        <div id="name-input" class="hide">
+            <label for="initials" id="initials-label">Initials</label>
+            <input type="text" name="initials" 
+            id="initials" 
+            placeholder="JD"/>
+            <button id="submit" >Submit
+            </button>
+            <a href="high-scores.html">
+                <button id="high-score-page">High Scores</button>
+            </a>
+        </div>
+        <br>
+        <br>
+        <div id="high-scores-button"></div>   
+            <button class="hide">
+                <a id="high-scores-link" href="high-scores.html">View High Scores</a>
+            </button>
+        </div>
+    </div>
+
+
 
     
     
-    
-    
-    
-    
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script2.js"></script>
 </body>
 </html>
