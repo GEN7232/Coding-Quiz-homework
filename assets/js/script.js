@@ -21,11 +21,11 @@ var questions = [
   },
   {
     text: "The answer to this question is B",
-    choices: ["A:", "B:", "C:", "D:"],
-    correct: "B:"
+    choices: ["A", "B", "C", "D"],
+    correct: "B"
   },
   {
-    text: "The answer to this one is D.",
+    text: "The answer to this one is D",
     choices: ["A", "B", "C", "D"],
     correct: "D"
   },
