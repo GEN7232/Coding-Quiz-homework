@@ -51,14 +51,31 @@ a:hover {
     left: 48.5%;
 }
 
+#quiz {
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#high-score-page {
+    position: absolute;
+    top: 18%;
+    left: 47.5%;
+}
+
 ol {
 
     list-style-position: inside;
-    margin-left: -2%;
+    margin-top: 3%;
+    margin-left: -1%;
 }
 
 #high-scores-button {
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .hide {
